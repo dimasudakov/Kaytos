@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: 'Century Gothic', sans-serif;
+    color: black;
+}
+
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../font/centurygothic.ttf') format('opentype');
+}
