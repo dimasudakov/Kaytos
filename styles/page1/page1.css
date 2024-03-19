@@ -6,16 +6,13 @@
     }
 
     .page-1 {
+        position: relative;
         display: flex;
         flex-direction: row;
+        justify-content: flex-end;
         background: #001734;
         height: 35vw;
         width: 100%;
-    }
-
-    .page-1-left {
-        display: flex;
-        width: 30%;
     }
 
     .page-1-right {
@@ -27,7 +24,11 @@
     }
 
     .img-page-1-left {
-
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
     }
 
     .img-page-1-right {
